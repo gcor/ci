@@ -8,12 +8,15 @@
     "node": "5.9.1"
   },
   "scripts": {
+    "postinstall": "npm i",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "ejs": "2.4.1",
     "express": "4.13.3"
+  },
+  "devDependencies": {
+    "pug": "^2.0.0-beta4"
   },
   "repository": {
     "type": "git",
@@ -28,8 +31,5 @@
   "bugs": {
     "url": "https://github.com/gcor/ci/issues"
   },
-  "license": "MIT",
-  "devDependencies": {
-    "pug": "^2.0.0-beta4"
-  }
+  "license": "MIT"
 }
