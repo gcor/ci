@@ -1,0 +1,33 @@
+{
+  "name": "ci",
+  "version": "0.2.5",
+  "author": "anton@gcor.ru",
+  "description": "CI shri task",
+  "main": "index.js",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "2.4.1",
+    "express": "4.13.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcor/ci.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "homepage": "https://github.com/gcor/ci#readme",
+  "bugs": {
+    "url": "https://github.com/gcor/ci/issues"
+  },
+  "license": "MIT"
+}

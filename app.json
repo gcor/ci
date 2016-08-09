@@ -1,0 +1,8 @@
+{
+  "name": "ci",
+  "description": "CI shri task",
+  "repository": "https://github.com/gcor/ci",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static"],
+  "image": "heroku/nodejs"
+}
