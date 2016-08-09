@@ -11,7 +11,7 @@ app.set('view engine', 'pug');
 app.get('/', function(request, response) {
     console.time('render');
     response.render('pages/index', {
-        number: Math.random() * 100
+        number: Math.round(Math.random() * 100)
     });
     console.timeEnd('render');
 });
