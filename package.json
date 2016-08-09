@@ -8,7 +8,7 @@
     "node": "5.9.1"
   },
   "scripts": {
-    "postinstall": "npm i",
+    "preinstall": "npm i",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
