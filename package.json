@@ -12,7 +12,6 @@
     "test": "eslint ."
   },
   "dependencies": {
-    "express": "4.13.3",
     "pug": "2.0.0-beta4"
   },
   "repository": {
@@ -30,6 +29,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "eslint": "3.2.2"
+    "eslint": "3.2.2",
+    "express": "4.14.0"
   }
 }
