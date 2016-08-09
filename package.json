@@ -7,7 +7,6 @@
   "engines": {
     "node": "5.9.1"
   },
-  "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -29,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/gcor/ci/issues"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "pug": "^2.0.0-beta4"
+  }
 }
