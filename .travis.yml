@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- '6'
+- '5'
+- '4'
+deploy:
+  app: thawing-wave-71324
+  provider: heroku
+  api_key:
+    secure: YvuPyBJPbd6D4GDgrKsykJnYzf9zrr28HBF2WvUBkiAcEHS/aO0TksZPEfjQY2L5w9ZGmWkZJSCh0tAiBNxSkNp535lG6KTfp1nJAdw8CY2aCJLJn351hkC9ERwe9UVAcWqVJMvyVaGJj5wYAfPhC5goyOUg5kkKgl3bRGVtE5RbBiZG8sp2XqkOxwDl5gowhr8e3bWZeUosw0indV5mKbHAykZsTDBHnKxP/sExdarsA3prdXha7fCx0oMeoYRks6verMy2KelaAg4wisDQBXmft714stTbLch+63WmJNEeoSrKGITykRRoeYgh01CMxlNgPIXS2B+9v7JckhuIOQQX5cJFf/MB9ZmYBEkos6zeFwH/oHHpUsZ5CmK+c+hHO/pDOSUdfsTG+IvQVlDr+xGQnw2qj3QPk0zgfZZEHfEP0mxtgrSio2yE2Qlm4bctZK500DChXQzWtHnRMIn10kywK8+tzt4goyzrHmVbw5yhgn1SgXnYjB4YgrVQYQfNYQ89dS02+EGBqz+PpnnV/G9jX16Gs55HmKCpOC6f0vmpnexNqPNFrkDlM7pMjOW56Gy5gqJktqSN85+YmRFeklDYL5PRwibpUrCv2t7qJnSrlUH2EvSjYB/iZop+UEm0cvlT22dWgjS4Cze0Ne0tkW+PC6py6Xbu2OcJVeZYJqE=
