@@ -9,14 +9,11 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint ."
   },
   "dependencies": {
     "express": "4.13.3",
     "pug": "2.0.0-beta4"
-  },
-  "devDependencies": {
-    "pug": "^2.0.0-beta4"
   },
   "repository": {
     "type": "git",
@@ -31,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/gcor/ci/issues"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "3.2.2"
+  }
 }
