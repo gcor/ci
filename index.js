@@ -1,4 +1,5 @@
 var express = require('express');
+var random = require('./app/random');
 var app = express();
 
 app.set('port', (process.env.PORT || 5000));
@@ -11,7 +12,7 @@ app.set('view engine', 'pug');
 app.get('/', function(request, response) {
     console.time('render');
     response.render('pages/index', {
-        number: Math.round(Math.random() * 100)
+        number: random.getRandomWeather()
     });
     console.timeEnd('render');
 });
