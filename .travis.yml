@@ -1,6 +1,8 @@
 language: node_js
 node_js:
 - '6'
+before_install: 
+— gulp build
 deploy:
   app: thawing-wave-71324
   provider: heroku
