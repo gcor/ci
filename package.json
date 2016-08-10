@@ -1,52 +1,54 @@
 {
-  "name": "ci",
-  "version": "0.2.5",
-  "author": "anton@gcor.ru",
-  "description": "CI shri task",
-  "main": "index.js",
-  "engines": {
-    "node": "5.9.1"
-  },
-  "scripts": {
-    "start": "node index.js",
-    "test": "eslint ./*.js ./scr/**/*.js",
-    "postinstall": "gulp build"
-  },
-  "dependencies": {
-    "babel-core": "6.13.2",
-    "babel-loader": "6.2.4",
-    "babel-preset-es2015": "6.13.2",
-    "gulp": "3.9.1",
-    "gulp-autoprefixer": "3.1.0",
-    "gulp-csso": "2.0.0",
-    "gulp-imagemin": "3.0.2",
-    "gulp-less": "3.1.0",
-    "gulp-plumber": "1.1.0",
-    "gulp-sourcemaps": "1.6.0",
-    "gulp-uglify": "2.0.0",
-    "handlebars": "4.0.5",
-    "handlebars-loader": "1.3.0",
-    "webpack": "1.13.1",
-    "webpack-stream": "3.2.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gcor/ci.git"
-  },
-  "keywords": [
-    "node",
-    "heroku",
-    "express"
-  ],
-  "homepage": "https://github.com/gcor/ci#readme",
-  "bugs": {
-    "url": "https://github.com/gcor/ci/issues"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "eslint": "3.2.2",
-    "express": "4.14.0",
-    "browser-sync": "2.14.0",
-    "gulp-nodemon": "2.1.0"
-  }
+    "name": "ci",
+    "version": "0.2.5",
+    "author": "anton@gcor.ru",
+    "description": "CI shri task",
+    "main": "index.js",
+    "engines": {
+        "node": "5.9.1"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "test": "eslint . && mocha app/tests",
+        "postinstall": "gulp build"
+    },
+    "dependencies": {
+        "express": "4.14.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gcor/ci.git"
+    },
+    "keywords": [
+        "node",
+        "heroku",
+        "express"
+    ],
+    "homepage": "https://github.com/gcor/ci#readme",
+    "bugs": {
+        "url": "https://github.com/gcor/ci/issues"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "browser-sync": "2.14.0",
+        "chai": "3.5.0",
+        "eslint": "3.2.2",
+        "gulp-nodemon": "2.1.0",
+        "mocha": "3.0.2",
+        "babel-core": "6.13.2",
+        "babel-loader": "6.2.4",
+        "babel-preset-es2015": "6.13.2",
+        "gulp": "3.9.1",
+        "gulp-autoprefixer": "3.1.0",
+        "gulp-csso": "2.0.0",
+        "gulp-imagemin": "3.0.2",
+        "gulp-less": "3.1.0",
+        "gulp-plumber": "1.1.0",
+        "gulp-sourcemaps": "1.6.0",
+        "gulp-uglify": "2.0.0",
+        "handlebars": "4.0.5",
+        "handlebars-loader": "1.3.0",
+        "webpack": "1.13.1",
+        "webpack-stream": "3.2.0"
+    }
 }
