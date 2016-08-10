@@ -35,7 +35,6 @@ module.exports = {
         "consistent-this": "error",
         "curly": "error",
         "default-case": "error",
-        "dot-location": "error",
         "dot-notation": [
             "error", {
                 "allowKeywords": true
@@ -190,7 +189,6 @@ module.exports = {
         "semi": "error",
         "semi-spacing": "error",
         "sort-imports": "error",
-        "sort-vars": "error",
         "space-before-blocks": "error",
         "space-before-function-paren": "off",
         "space-in-parens": [
