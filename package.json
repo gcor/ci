@@ -9,7 +9,7 @@
     },
     "scripts": {
         "start": "node index.js",
-        "test": "eslint ./*.js ./src/**/*.js ./app/**/*.js && mocha app/tests",
+        "test": "eslint . && mocha app/tests",
         "postinstall": "gulp build"
     },
     "dependencies": {
