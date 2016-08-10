@@ -9,7 +9,8 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "eslint ./*.js ./scr/**/*.js"
+    "test": "eslint ./*.js ./scr/**/*.js",
+    "postinstall": "gulp build"
   },
   "dependencies": {
     "babel-core": "6.13.2",
